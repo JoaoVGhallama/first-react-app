@@ -1,7 +1,17 @@
 import './Navbar.css'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="nav">
+      <div className="nav-logo">Test</div>
+      <ul className="nav-menu">
+        <li>home</li>
+        <li>Explore</li>
+        <li>About</li>
+        <li className='nav-content'>Content</li>
+      </ul>
+    </div>
   )
 }
+
+export default Navbar
